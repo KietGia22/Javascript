@@ -7,7 +7,7 @@
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
-  "author": "Gia Kiet",
+  "author": "Kiet Gia",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.9.3",
