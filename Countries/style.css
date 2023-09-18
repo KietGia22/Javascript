@@ -19,7 +19,7 @@
   .btn {
     background-color: rgb(255, 165, 0);
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     font-family: inherit;
     border: none;
@@ -42,15 +42,6 @@
   
   .btn:active {
     transform: scale(1);
-  }
-  
-  .countries-display {
-    background-color: #f0f0f0;
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 15px;
-    padding: 20px 0;
-    justify-content: space-around;
   }
   
   .country-card {
@@ -82,7 +73,7 @@
   }
   
   .country-info {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.4;
   }
   
@@ -96,9 +87,6 @@
   }
   
   .graph-buttons-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 40px 0 10px 0;
     position: relative;
   }
@@ -112,25 +100,18 @@
     top: 25px;
   }
   
-  .graph-buttons {
-    display: flex;
-    gap: 10px;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-  }
-  
   .graph-buttons button {
     text-transform: uppercase;
     background-color: rgb(255, 165, 0);
-    width: 120px;
+    width: 200px;
     border: none;
-    padding: 10px;
-    font-size: 12px;
+    padding: 10px 20px;
+    font-size: 16px;
     font-weight: 500;
     font-family: inherit;
     transition: all 0.3s;
     border-radius: 3px;
+    align-items: center;
   }
   
   .graph-buttons button:hover {
@@ -141,10 +122,6 @@
   
   .graph-buttons button:active {
     transform: scale(1);
-  }
-  
-  .graph-description {
-    font-size: 14px;
   }
   
   .country {
@@ -159,6 +136,7 @@
   
   .graph-name {
     width: 10%;
+    font-size: 16px;
   }
   
   .graph-percentage {
@@ -174,6 +152,7 @@
   
   .graph-population {
     width: 10%;
+    font-size: 16px;
   }
   
   .footer {
