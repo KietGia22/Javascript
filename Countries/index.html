@@ -15,30 +15,35 @@
       <p class="description text-lg">
         Currently we have <span class="total-countries"></span> countries
       </p>
+      <p>
+        Currently we have <span class="total-populations"></span> people 
+      </p>
       <p class="feedback text-orange-400 hidden font-medium text-sm">
         <i> <span class="number"></span> satisfied the search criteria </i>
       </p>
     </header>
     <div class="search-area flex flex-col items-center justify-center p-8 gap-10">
-      <input
+        <input
         type="text"
-        placeholder="Search countries by name, city and languages"
-        class="search-input text-xl text-orange-400 w-3/5 focus:outline-none"
-      />
+        placeholder="Search countries by name, city and languages "
+        class="search-input text-xl text-orange-400 w-3/4 focus:outline-none"
+      /> 
       <div class="buttons flex items-center justify-center gap-2.5">
         <button class="btn btn-name">
           Name
           <span class="name-arrow"></span>
         </button>
         <button class="btn btn-capital">
-          Capital <span class="capital-arrow"></span>
+          Capital 
+          <span class="capital-arrow"></span>
         </button>
         <button class="btn btn-population">
-          Population <span class="population-arrow"></span>
+          Population 
+          <span class="population-arrow"></span>
         </button>
-        <span class="btn-chart transition-all text-4xl text-orange-400 relative hover:scale-105, cursor-pointer active:scale-100">
-          <i class="ti-bar-chart"></i>
-        </span>
+        <div class="btn-chart transition-all text-4xl text-orange-400 hover:scale-150 cursor-pointer">
+          <i class="ti-bar-chart "></i>
+        </div>
       </div>
     </div>
     <div class="countries-display bg-slate-300 flex flex-wrap gap-y-4 justify-around py-5"></div>
