@@ -102,13 +102,13 @@ btnCapital.addEventListener('click', () => {
   populationArrow.style.display = 'none';
 
   if (sortedForCapital) {
-    capitalArrowIcon.classList.add('fa-arrow-up-long');
-    capitalArrowIcon.classList.remove('fa-arrow-down-long');
+    capitalArrowIcon.classList.add('ti-arrow-up');
+    capitalArrowIcon.classList.remove('ti-arrow-down');
     displayCountries(sortForCapital(filteredCountries));
     sortedForCapital = false;
   } else {
-    capitalArrowIcon.classList.add('fa-arrow-down-long');
-    capitalArrowIcon.classList.remove('fa-arrow-up-long');
+    capitalArrowIcon.classList.add('ti-arrow-down');
+    capitalArrowIcon.classList.remove('ti-arrow-up');
     sortedForCapital = true;
     displayCountries(reverseCapital(filteredCountries));
     sortedForName = false;

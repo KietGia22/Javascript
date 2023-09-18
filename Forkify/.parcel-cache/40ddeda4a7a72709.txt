@@ -137,7 +137,7 @@
 101D:\KIET's Folder\CODE\Research\Web\Project\Project_JS\Forkify\node_modules\core-js\full\array\with.js133392168887406021 0
 100D:\KIET's Folder\CODE\Research\Web\Project\Project_JS\Forkify\node_modules\core-js\es\global-this.js133392168876327176 0
 109D:\KIET's Folder\CODE\Research\Web\Project\Project_JS\Forkify\node_modules\lines-and-columns\build\index.d.ts133391822992426390 0
-74D:\KIET's Folder\CODE\Research\Web\Project\Project_JS\Forkify\package.json133392202028320190 0
+74D:\KIET's Folder\CODE\Research\Web\Project\Project_JS\Forkify\package.json133392203446704745 0
 128D:\KIET's Folder\CODE\Research\Web\Project\Project_JS\Forkify\node_modules\core-js\modules\esnext.data-view.get-uint8-clamped.js133392168872508981 0
 111D:\KIET's Folder\CODE\Research\Web\Project\Project_JS\Forkify\node_modules\core-js\modules\es.symbol.key-for.js133392168871899815 0
 118D:\KIET's Folder\CODE\Research\Web\Project\Project_JS\Forkify\node_modules\core-js\full\symbol\is-well-known-symbol.js133392168879296667 0

@@ -4,7 +4,7 @@
   "description": "",
   "default": "index.html",
   "scripts": {
-    "dev": "vite"
+    "build": "vite"
   },
   "author": "Gia Kiet",
   "license": "ISC",
